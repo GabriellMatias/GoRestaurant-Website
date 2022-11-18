@@ -1,34 +1,32 @@
-import { Component } from 'react';
-import { FiPlusSquare } from 'react-icons/fi';
 
-import { Container } from './styles';
-import Logo from '../../assets/logo.svg';
+import { FiPlusSquare } from "react-icons/fi";
 
-class Header extends Component {
-  render() {
-    const { openModal } = this.props;
+import { Container } from "./styles";
+import Logo from "../../assets/logo.svg";
 
-    return (
-      <Container>
-        <header>
-          <img src={Logo} alt="GoRestaurant" />
-          <nav>
-            <div>
-              <button
-                type="button"
-                onClick={openModal}
-              >
-                <div className="text">Novo Prato</div>
-                <div className="icon">
-                  <FiPlusSquare size={24} />
-                </div>
-              </button>
-            </div>
-          </nav>
-        </header>
-      </Container>
-    )
-  }
-};
+interface HeaderProps {
+  openModal: () => void;
+}
 
-export default Header;
+export default function Header(props: HeaderProps) {
+  const openModal = props.openModal;
+  
+  return (
+    <Container>
+      <header>
+        <img src={Logo} alt="GoRestaurant" />
+        <nav>
+          <div>
+            <button type="button" onClick={openModal}>
+              <div className="text">Novo Prato</div>
+              <div className="icon">
+                <FiPlusSquare size={24} />
+              </div>
+            </button>
+          </div>
+        </nav>
+      </header>
+    </Container>
+  );
+}
+
