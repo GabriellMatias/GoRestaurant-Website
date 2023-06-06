@@ -1,5 +1,5 @@
 <h1 align="center"> 
-  <img width="150px" src="https://user-images.githubusercontent.com/80908772/194680070-87fbc668-aee7-40d4-98d9-64ba84bf08c5.png"/>
+  <img src="https://user-images.githubusercontent.com/80908772/202796071-1b714cea-4646-41aa-92fb-b7c56394ff72.png"/>
 </h1>
 <br/>
 
@@ -17,7 +17,7 @@ This is a extra challenger developed in module 02 challenge of the 2021 track of
 ## :camera: ScreenShots
 <h1 aling="center">
   
-  <img style="margin-top:100px;" src="https://user-images.githubusercontent.com/80908772/202796071-1b714cea-4646-41aa-92fb-b7c56394ff72.png"/>
+ 
   <hr/>
   <img style="margin-top:10px;" src="https://user-images.githubusercontent.com/80908772/202796060-78cc23c0-6930-41f9-ba50-73895eadc227.png"/>
   <hr/>
